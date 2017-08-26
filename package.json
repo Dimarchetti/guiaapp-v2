@@ -54,11 +54,9 @@
   },
   "scripts": {
     "test": "grunt test",
-    "//": "Post installation.",
-    "//": "Uncomment the next line to enable post install script.",
-    "//": "There is always the option to run it manually.",
-    "//": { "postinstall": "./install.sh" },
-    "//": { "postinstall": "./install.bat" }
+    "//": {
+      "postinstall": "./install.bat"
+    }
   },
   "cordovaPlatforms": [],
   "cordovaPlugins": [
@@ -77,6 +75,10 @@
         "SENDER_ID": "228071472080"
       },
       "locator": "phonegap-plugin-push"
-    }
+    },
+    "cordova-plugin-x-socialsharing",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-geolocation",
+    "cordova-plugin-email"
   ]
 }
