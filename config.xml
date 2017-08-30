@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.titaniumtemplates.businessdirectory" version="1.15.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Business Directory</name>
+    <name>GuiaApp Maricá</name>
     <description>
-        Business Directory. The boostrap you need in order to build your next Ionic application.
+        O aplicativo da região de Maricá.
     </description>
-    <author email="skounis@gmail.com" href="http://about.me/stavros.kounis">
-        Stavros Kounis
+    <author email="dimitri@wdots.com.br" href="http://wdots.com.br">
+        Dimitri Marchetti | Wdots Agência de Web Design
     </author>
     <content src="index.html" />
     <access origin="*" />

@@ -68,16 +68,16 @@ module.exports = function (grunt) {
 						// apiUrl: 'misc/',
 						dataProvider: 'FIREBASE',
 						firebase: {
-							apiKey: 'AIzaSyAPinktmcHhcL88Rzm0p98W0cJ3OLmEhqA',
-							authDomain: 'business-directory-frb3.firebaseapp.com',
-							databaseURL: 'https://business-directory-frb3.firebaseio.com'
+							apiKey: 'AIzaSyBId8pjwwjz0LbMpd50gxgpjlXtShNQYwU',
+							authDomain: 'guiaapp-marica-v2.firebaseapp.com',
+							databaseURL: 'https://guiaapp-marica-v2.firebaseio.com'
 						},
 						metric: 'km', // miles or km
 						youtubeKey: 'AIzaSyDael5MmCQa1GKQNKQYypmBeB08GATgSEo',
 						ionicCloudApiToken: '', // https://apps.ionic.io/app/
 						ionicSecurityProfile: '', // https://apps.ionic.io/app/
-						ionicAppId: '241b6d37', //'2113c758',
-						gcmId: '228071472080' // Google Developers Console
+						ionicAppId: 'cbdfbabb', //'2113c758',
+						gcmId: '349381412993' // Google Developers Console
 					}
 				}
 			},
@@ -91,12 +91,12 @@ module.exports = function (grunt) {
 						// dataProvider: 'LOCAL',
 						// apiUrl: 'misc/',
 						dataProvider: 'FIREBASE',
-						firebaseUrl: 'https://business-directory.firebaseio.com/',
+						firebaseUrl: 'guiaapp-marica-v2.firebaseapp.com/',
 						youtubeKey: 'AIzaSyDael5MmCQa1GKQNKQYypmBeB08GATgSEo',
 						ionicCloudApiToken: '', // https://apps.ionic.io/app/
 						ionicSecurityProfile: '', // https://apps.ionic.io/app/
-						ionicAppId: '241b6d37', //'2113c758',
-						gcmId: '228071472080' // Google Developers Console
+						ionicAppId: 'cbdfbabb', //'2113c758',
+						gcmId: '349381412993' // Google Developers Console (N° do Projeto  no google cloud platform)
 					}
 				}
 			}
