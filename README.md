@@ -1,4 +1,4 @@
-# Business Directory Ionic
+# GuiaApp Ionic App
 This application categorizes businesses into their business/industry domain and provides a listing. Presents information about each business promoting their activity and includes various search filters enabling the easier finding of the business which the user is interested in.
 
 ## Dependecies, Run and Build
