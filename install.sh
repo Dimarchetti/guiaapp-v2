@@ -28,8 +28,8 @@ bower install
 #
 # Comment out the platform(s) your system supports
 #
-ionic cordova platform add ios
-# ionic cordova platform add android
+# ionic cordova platform add ios
+ionic cordova platform add android
 
 #
 # Build the  project and generate the cordova directory (www)
