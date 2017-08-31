@@ -1,9 +1,20 @@
-<ion-view view-title="Directory" class="businesses">
+<ion-view view-title="Home GuiaApp Maricá" class="businesses">
 	<ion-nav-buttons side="right">
 		<button class="button button-clear icon ion-android-options" ng-click="vm.showFilter()"></button>
 	</ion-nav-buttons>
 
 	<ion-content ng-init="vm.search = ''">
+    <div class="home-hello">
+      <ion-slide-box auto-play="3000" does-continue="true" show-pager="false">
+        <ion-slide ng-repeat="i in ['academias.png','barbearias.png','bares-restaurantes.png','beleza-estetica.png']">
+          <div class="box blue"><img ng-src="https://s3-us-west-2.amazonaws.com/guiaapp-marica/cabecalhos/{{i}}"/></div>
+        </ion-slide>
+      </ion-slide-box>
+      <div class="item item-text-wrap">
+        <h1>GuiaApp Maricá</h1>
+        O aplicativo da região de Maricá
+      </div>
+    </div>
 		<ion-scroll zooming="true" direction="x" scrollbar-x="false" class="categories-filter">
 			<span ng-repeat="category in vm.categories">
 				<button class="button button-light filter-button"
@@ -14,7 +25,7 @@
 			</span>
 		</ion-scroll>
 		<div class="item search-box">
-			<input type="text" placeholder="Search" ng-model="vm.search" />
+			<input type="text" placeholder="Pesquisar no GuiaApp..." ng-model="vm.search" />
 		</div>
 		<div class="item item-thumbnail-left item-text-wrap"
 			ng-click="vm.navigate(business.guid)"
