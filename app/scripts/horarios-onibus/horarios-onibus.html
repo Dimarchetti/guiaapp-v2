@@ -1,0 +1,54 @@
+<ion-view view-title="Horários de Ônibus">
+    <ion-content>
+        <div class="home-hello">
+            <img src="../../img/app-home-cabecalho-anuncieaqui.png">
+            <div class="item item-text-wrap">
+                <h2>Horários dos Ônibus</h2>
+            </div>
+        </div>
+
+      <div ng-controller="HorariosonibusController">
+        <ion-list>
+          <h6><strong>&nbsp; *ATENÇÃO:</strong> Os horários são responsabilidade da Viação Amparo</h6>
+          <div ng-repeat="group in groups">
+
+            <ion-item class="item-avatar item-icon-right" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
+              <img ng-src="{{group.iconURL}}">
+              <div class="item-text-center item-text-wrap">{{group.name}}</div>
+              <i class="icon" ng-class="isGroupShown(group) ? 'ion-ios-arrow-up' : 'ion-ios-arrow-down'"></i>
+            </ion-item>
+
+            <ion-item class="item-accordion item-icon-right" ng-repeat="item in group.childItems" ng-click="toggleSubGroup(item)" ng-show="isGroupShown(group)">
+              <div class="item-text-center item-text-wrap"><strong>{{item.childName}}</strong></div>
+              <i class="icon" ng-class="isSubGroupShown(item) ? 'ion-ios-arrow-up' : 'ion-ios-arrow-down'"></i>
+
+              <div class="item-accordion sub-item" ng-repeat="child in item.grandChildren" ng-show="isSubGroupShown(item)">
+                <div class="item-text-center item-text-wrap">{{child.grandChildName}}</div>
+              </div>
+
+            </ion-item>
+
+          </div>
+
+        </ion-list>
+      </div>
+
+        <!--<ion-list>
+        <div ng-repeat="group in groups">
+          <ion-item class="item-accordion"
+                    ng-click="toggleGroup(group)"
+                    ng-class="{active: isGroupShown(group)}">
+              <i class="icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;&nbsp
+            {{group.name}}
+          </ion-item>
+          <ion-item class="item-accordion"
+                    ng-repeat="item in group.items"
+                    ng-show="isGroupShown(group)">
+            {{item}}
+          </ion-item>
+        </div>
+      </ion-list> -->
+
+    </ion-content>
+</ion-view>

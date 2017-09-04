@@ -24,7 +24,8 @@ angular.module('bizdir', [
 	'bizdir.contact-us',
 	'bizdir.wordpress',
 	'bizdir.drupal',
-	'bizdir.reviews'
+	'bizdir.reviews',
+  'bizdir.horariosonibus'
 ])
 
 .value('_', window._)
