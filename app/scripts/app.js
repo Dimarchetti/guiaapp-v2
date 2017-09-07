@@ -25,7 +25,8 @@ angular.module('bizdir', [
 	'bizdir.wordpress',
 	'bizdir.drupal',
 	'bizdir.reviews',
-  'bizdir.horariosonibus'
+  'bizdir.horariosonibus',
+  'bizdir.anuncieguiaapp'
 ])
 
 .value('_', window._)

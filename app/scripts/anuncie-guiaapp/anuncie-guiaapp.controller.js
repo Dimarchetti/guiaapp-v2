@@ -2,31 +2,26 @@
 	'use strict';
 
 	angular
-		.module('bizdir.contact-us')
-		.controller('ContactUsController', ContactUsController);
+		.module('bizdir.anuncieguiaapp')
+		.controller('AnuncieguiaappController', AnuncieguiaappController);
 
-	ContactUsController.$inject = [
-		'business', 'externalAppsService', '$cordovaEmailComposer', 'openHoursService','servicesService'];
+	AnuncieguiaappController.$inject = [
+		'business', 'externalAppsService', '$cordovaEmailComposer', 'openHoursService'];
 
 	/* @ngInject */
-	function ContactUsController(
+	function AnuncieguiaappController(
 		business, externalAppsService, $cordovaEmailComposer, openHoursService) {
-
 		var vm = angular.extend(this, {
 			phoneNumber: business.phoneNumber,
-      name: business.name,
-      pictures: business.logo,
-      description: business.description,
-      openWhatsapp: openWhatsapp,
 			getDirections: getDirections,
 			sendEmail: sendEmail,
 			openFacebookPage: openFacebookPage,
 			openHours: []
 		});
 
-    (function activate() {
-      vm.openHours = business.openhours && openHoursService.getOpenHours(business.openhours);
-    })();
+		(function activate() {
+			vm.openHours = business.openhours && openHoursService.getOpenHours(business.openhours);
+		})();
 
 		// **********************************************************************
 
@@ -49,10 +44,5 @@
 		function openFacebookPage() {
 			externalAppsService.openExternalUrl(business.facebookPage);
 		}
-
-		function openWhatsapp() {
-		  externalAppsService.whatsapp(business.whatsapp);
-    }
-
 	}
 })();

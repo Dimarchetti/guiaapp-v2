@@ -12,7 +12,8 @@
 		var service = {
 			openMapsApp: openMapsApp,
 			openExternalUrl: openExternalUrl,
-			openPdf: openPdf
+			openPdf: openPdf,
+      whatsapp: whatsapp
 		};
 		return service;
 
@@ -41,5 +42,10 @@
 			$window.open(url, '_system', 'location=yes');
 			return false;
 		}
+
+		function whatsapp (url) {
+		  openExternalUrl(url);
+    }
+
 	}
 })();
