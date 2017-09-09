@@ -1,6 +1,6 @@
 <ion-modal-view>
 	<ion-header-bar>
-		<h1 class="title">Add review</h1>
+		<h1 class="title">Adicione uma Avaliação</h1>
 		<div class="buttons">
 			<button class="button button-clear button-primary" ng-click="vm.cancel()">Cancel</button>
 		</div>
@@ -8,16 +8,16 @@
 	<ion-content class="padding">
 		<ion-list>
 			<label class="item item-input">
-				<input type="text" placeholder="Full name" ng-model="vm.review.author">
+				<input type="text" placeholder="Nome Completo" ng-model="vm.review.author">
 			</label>
 			<label class="item item-input">
-				<textarea placeholder="Review" rows="6" ng-model="vm.review.comment"></textarea>
+				<textarea placeholder="Avaliação" rows="6" ng-model="vm.review.comment"></textarea>
 			</label>
 			<div class="set-rating padding-vertical">
-				<span>Rate the article</span>
+				<span>Avalie o negócio</span>
 				<rating ng-model="vm.review.rate" max="5"></rating>
 			</div>
-			<button class="button button-full" ng-click="vm.submit()">Submit</button>
+			<button class="button button-full" ng-click="vm.submit()">Enviar</button>
 		</ion-list>
 	</ion-content>
 </ion-modal-view>

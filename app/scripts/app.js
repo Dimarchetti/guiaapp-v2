@@ -26,7 +26,8 @@ angular.module('bizdir', [
 	'bizdir.drupal',
 	'bizdir.reviews',
   'bizdir.horariosonibus',
-  'bizdir.anuncieguiaapp'
+  'bizdir.anuncienoguiaapp',
+  'bizdir.telefonesuteis'
 ])
 
 .value('_', window._)

@@ -1,31 +1,25 @@
-<ion-view view-title="Horários dos Ônibus">
+<ion-view view-title="Telefones Úteis">
     <ion-content>
         <div class="home-hello">
             <img src="img/app-home-cabecalho-anuncieaqui.png">
             <div class="item item-text-wrap">
-                <h2>Horários dos Ônibus</h2>
+                <h2>Telefones Úteis</h2>
             </div>
         </div>
 
-      <div ng-controller="HorariosonibusController">
+      <div ng-controller="TelefonesUteisController">
         <ion-list>
-          <h6><strong>&nbsp; *ATENÇÃO:</strong> Os horários são responsabilidade da Viação Amparo</h6>
+          <h6><strong>&nbsp; *OBS:</strong> Telefones informados pelos próprios órgãos <br> &nbsp;&nbsp; em caráter meramente informativo.</h6>
           <div ng-repeat="group in groups">
 
             <ion-item class="item-avatar item-icon-right" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
-              <img ng-src="{{group.iconURL}}">
+              <!-- <img ng-src="{{group.iconURL}}">-->
               <div class="item-text-center item-text-wrap">{{group.name}}</div>
               <i class="icon" ng-class="isGroupShown(group) ? 'ion-ios-arrow-up' : 'ion-ios-arrow-down'"></i>
             </ion-item>
 
-            <ion-item class="item-accordion item-icon-right" ng-repeat="item in group.childItems" ng-click="toggleSubGroup(item)" ng-show="isGroupShown(group)">
-              <div class="item-text-center item-text-wrap"><strong>{{item.childName}}</strong></div>
-              <i class="icon" ng-class="isSubGroupShown(item) ? 'ion-ios-arrow-up' : 'ion-ios-arrow-down'"></i>
-
-              <div class="item-accordion sub-item" ng-repeat="child in item.grandChildren" ng-show="isSubGroupShown(item)">
-                <div class="item-text-center item-text-wrap">{{child.grandChildName}}</div>
-              </div>
-
+            <ion-item ng-repeat="item in group.childItems" ng-show="isGroupShown(group)">
+              <div class="item-text-center item-text-wrap">{{item.childName}}<a href="tel:{{item.childName}}" class="item-icon-right"><button class="button icon ion-android-call button-positive"></button></a></div>
             </ion-item>
 
           </div>

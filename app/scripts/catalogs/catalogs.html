@@ -1,4 +1,4 @@
-<ion-view view-title="Catalogs">
+<ion-view view-title="Catálogos">
 	<ion-content>
 		<div ng-repeat="catalog in vm.catalogs" ng-if="$index%2 == 0" class="row">
 			<div class="card col" ng-click="vm.openCatalog(vm.catalogs[$index].guid)">

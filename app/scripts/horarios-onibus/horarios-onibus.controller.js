@@ -13,7 +13,7 @@
       {
         "id": 1,
         "name": "R.128 - Via Estr. de Itaipuaçu x Recanto (Saída Itaipuaçu - Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -47,7 +47,7 @@
       {
         "id": 2,
         "name": "R.128 - Via Estr. de Itaipuaçu x Recanto (Saída R.126 via Estr. de Itaipuaçu)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -81,7 +81,7 @@
       {
         "id": 3,
         "name": "Anaia x Candelária (Saída Anaia)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -97,7 +97,7 @@
       {
         "id": 4,
         "name": "Anaia x Candelária (Saída Rio de Janeiro)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -113,7 +113,7 @@
       {
         "id": 5,
         "name": "Anaia x Niterói - Via Tribobó (Saída Anaia)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -147,7 +147,7 @@
       {
         "id": 6,
         "name": "Anaia x Niterói - Via Tribobó (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -181,7 +181,7 @@
       {
         "id": 7,
         "name": "Avenida 2 - Rua 034 - Circular (Saída Avenida 2)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -215,7 +215,7 @@
       {
         "id": 8,
         "name": "Cassorotiba x Inoã (Saída Cassorotiba)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -249,7 +249,7 @@
       {
         "id": 9,
         "name": "Cassorotiba x Inoã (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -283,7 +283,7 @@
       {
         "id": 10,
         "name": "Engenho do Roçado x Niterói (Saída Eng. do Roçado)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -317,7 +317,7 @@
       {
         "id": 11,
         "name": "Engenho do Roçado x Niterói (Saída Eng. do Roçado)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -351,7 +351,7 @@
       {
         "id": 12,
         "name": "EXPRESSO - Maricá x Castelo (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -367,7 +367,7 @@
       {
         "id": 13,
         "name": "EXPRESSO - Maricá x Castelo (Saída Castelo)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -383,7 +383,7 @@
       {
         "id": 14,
         "name": "Inoã x Itaipuaçu - Cajueiro R.128 (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -417,7 +417,7 @@
       {
         "id": 15,
         "name": "Inoã x Itaipuaçu - Cajueiro R.128 (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -451,7 +451,7 @@
       {
         "id": 16,
         "name": "Inoã x Itaipuaçu - Recanto (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -485,7 +485,7 @@
       {
         "id": 17,
         "name": "Inoã x Itaipuaçu - Recanto (Saída Itaipuaçu - Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -519,7 +519,7 @@
       {
         "id": 18,
         "name": "Inoã x Itaipuaçu - Recanto Via Itaocaia (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -553,7 +553,7 @@
       {
         "id": 19,
         "name": "Inoã x Itaipuaçu - Recanto Via Itaocaia (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -587,7 +587,7 @@
       {
         "id": 20,
         "name": "Inoã x Santa Paula (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -621,7 +621,7 @@
       {
         "id": 21,
         "name": "Inoã x Santa Paula (Saída Santa Paula)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -655,7 +655,7 @@
       {
         "id": 22,
         "name": "Itaipú x Niterói - Via Tribobó (Saída Itaipú)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -689,7 +689,7 @@
       {
         "id": 23,
         "name": "Itaipú x Niterói - Via Tribobó (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -723,7 +723,7 @@
       {
         "id": 24,
         "name": "Itaipú x Tribobó (Saída Itaipú)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -739,7 +739,7 @@
       {
         "id": 25,
         "name": "Itaipú x Tribobó (Saída Tribobó)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -764,7 +764,7 @@
       {
         "id": 26,
         "name": "Itaipú x Varzéa das Moças (Saída Itaipú)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -780,7 +780,7 @@
       {
         "id": 27,
         "name": "Itaipú x Varzéa das Moças (Saída Várzea das Moças)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -796,7 +796,7 @@
       {
         "id": 28,
         "name": "Itaipuaçu - R.128 Via Cajueiro x Castelo (Saída Itaipuaçu - R126 Via Cajueiro)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -812,7 +812,7 @@
       {
         "id": 29,
         "name": "Itaipuaçu - R.128 Via Cajueiro x Castelo (Saída Castelo)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -828,7 +828,7 @@
       {
         "id": 30,
         "name": "Itaipuaçu - R.128 x Niterói (Saída Rua 126 - Barroco)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -862,7 +862,7 @@
       {
         "id": 31,
         "name": "Itaipuaçu - R.128 x Niterói (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -896,7 +896,7 @@
       {
         "id": 32,
         "name": "Itaipuaçu - Recanto x Castelo (Saída Itaipuaçu - Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -930,7 +930,7 @@
       {
         "id": 33,
         "name": "Itaipuaçu - Recanto x Castelo (Saída Castelo)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -964,7 +964,7 @@
       {
         "id": 34,
         "name": "Itaipuaçu - Recanto x Niterói (Saída Itaipuaçu - Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -998,7 +998,7 @@
       {
         "id": 35,
         "name": "Itaipuaçu - Recanto x Niterói (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1032,7 +1032,7 @@
       {
         "id": 36,
         "name": "Itaipuaçu - Recanto X Rio do Ouro (Saída Itaipuaçu - Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1066,7 +1066,7 @@
       {
         "id": 37,
         "name": "Itaipuaçu - Recanto X Rio do Ouro (Saída Rio do Ouro)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1100,7 +1100,7 @@
       {
         "id": 38,
         "name": "Avenida 2 - Rua 034 - Circular (Saída Avenida 2)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1134,7 +1134,7 @@
       {
         "id": 39,
         "name": "Joquei x Niterói (Saída Joquei)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1168,7 +1168,7 @@
       {
         "id": 40,
         "name": "Joquei x Niterói (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1202,7 +1202,7 @@
       {
         "id": 41,
         "name": "Maricá x Castelo (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1236,7 +1236,7 @@
       {
         "id": 42,
         "name": "Maricá x Castelo (Saída Castelo)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1270,7 +1270,7 @@
       {
         "id": 43,
         "name": "Maricá X Inoã - Via Avenida (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1304,7 +1304,7 @@
       {
         "id": 44,
         "name": "Maricá X Inoã - Via Avenida (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1338,7 +1338,7 @@
       {
         "id": 45,
         "name": "Maricá x Inoã - Via Flamengo (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1354,7 +1354,7 @@
       {
         "id": 46,
         "name": "Maricá x Inoã - Via Flamengo (Saída Inoã)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1370,7 +1370,7 @@
       {
         "id": 47,
         "name": "Maricá x Itaipuaçu - Cajueiro R.128 (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1404,7 +1404,7 @@
       {
         "id": 48,
         "name": "Maricá x Itaipuaçu - Cajueiro R.128 (Saída Itaipuaçu - Caj.R126)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1438,7 +1438,7 @@
       {
         "id": 49,
         "name": "Maricá x Itaipuaçu - Recanto (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1472,7 +1472,7 @@
       {
         "id": 50,
         "name": "Maricá x Itaipuaçu - Recanto (Saída Itaipuaçu Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1506,7 +1506,7 @@
       {
         "id": 51,
         "name": "Maricá x Niterói (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1540,7 +1540,7 @@
       {
         "id": 52,
         "name": "Maricá x Niterói (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1574,7 +1574,7 @@
       {
         "id": 53,
         "name": "Maricá x Rio do Ouro (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1608,7 +1608,7 @@
       {
         "id": 54,
         "name": "Maricá x Rio do Ouro (Saída Rio do Ouro)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1642,7 +1642,7 @@
       {
         "id": 55,
         "name": "Maricá x Rio do Ouro - Via Flamengo (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1676,7 +1676,7 @@
       {
         "id": 56,
         "name": "Maricá x Rio do Ouro - Via Flamengo (Saída Rio do Ouro)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1710,7 +1710,7 @@
       {
         "id": 57,
         "name": "Maricá x Rio do Ouro - Via São José (Saída Maricá)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Não há saída de Maricá no momento."
@@ -1720,7 +1720,7 @@
       {
         "id": 58,
         "name": "Maricá x Rio do Ouro - Via São José (Saída São José)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1754,7 +1754,7 @@
       {
         "id": 59,
         "name": "P.Negra x Niterói (Saída Ponta Negra)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1770,7 +1770,7 @@
       {
         "id": 60,
         "name": "P.Negra x Niterói (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1786,7 +1786,7 @@
       {
         "id": 61,
         "name": "Ponta Negra x Castelo (Saída Ponta Negra)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1820,7 +1820,7 @@
       {
         "id": 62,
         "name": "Ponta Negra x Castelo (Saída Castelo)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/viagem-2.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1845,7 +1845,7 @@
       {
         "id": 63,
         "name": "R.128 - Via Rua 034 x Recanto (Saída Itaipuaçu - Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1879,7 +1879,7 @@
       {
         "id": 64,
         "name": "R.128 - Via Rua 034 x Recanto (Saída R.126 Via Rua 034)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1913,7 +1913,7 @@
       {
         "id": 65,
         "name": "R.128 x Rio do Ouro - Via Barroco (Saída Rua 126 - Barroco)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1929,7 +1929,7 @@
       {
         "id": 66,
         "name": "R.128 x Rio do Ouro - Via Barroco (Saída Rio do Ouro)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1945,7 +1945,7 @@
       {
         "id": 67,
         "name": "Santa Paula x Castelo (Saída Santa Paula)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1961,7 +1961,7 @@
       {
         "id": 68,
         "name": "Terminal x Recanto (Saída Itaipuaçu - Recanto)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1977,7 +1977,7 @@
       {
         "id": 69,
         "name": "Terminal x Recanto (Saída Terminal de Itaipuaçu)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -1993,7 +1993,7 @@
       {
         "id": 70,
         "name": "Várzea das Moças x Niterói - Via Maria Paula (Saída Varzea da Moças)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -2027,7 +2027,7 @@
       {
         "id": 71,
         "name": "Várzea das Moças x Niterói - Via Maria Paula (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -2061,7 +2061,7 @@
       {
         "id": 72,
         "name": "Várzea das Moças x Niterói - Via Tribobó (Saída Varzea da Moças)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
@@ -2095,7 +2095,7 @@
       {
         "id": 73,
         "name": "Várzea das Moças x Niterói - Via Tribobó (Saída Niterói)",
-        "iconURL": "../../img/app-home-cabecalho-anuncieaqui.png",
+        "iconURL": "img/bus/urbano1.png",
         "childItems": [
           {
             "childName": "Dias Úteis",
