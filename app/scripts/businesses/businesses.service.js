@@ -22,7 +22,7 @@
 
 		function getCategories() {
 			return dataService.getCategories();
-		};
+		}
 
 		function getBusinesses() {
 			return dataService.getBusinesses();

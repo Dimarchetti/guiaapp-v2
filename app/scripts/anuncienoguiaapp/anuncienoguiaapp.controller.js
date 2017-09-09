@@ -10,8 +10,8 @@
   /* @ngInject */
   function AnuncienoguiaappController(externalAppsService) {
     var vm = angular.extend(this, {
-      openWhatsapp: openWhatsapp
-
+      openWhatsapp: openWhatsapp,
+      openSite: openSite
     });
 
     function openWhatsapp() {
@@ -19,6 +19,10 @@
       externalAppsService.whatsapp(apizap);
     }
 
+    function openSite() {
+      var wdots = "http://wdots.com.br";
+      externalAppsService.whatsapp(wdots);
+    }
 
   }
 })();
