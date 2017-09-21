@@ -6,7 +6,7 @@
 	<ion-content ng-init="vm.search = ''">
     <div class="home-hello">
       <ion-slide-box auto-play="3000" does-continue="true" show-pager="false">
-        <ion-slide ng-repeat="i in ['academias.jpg','beleza-estetica.jpg','construcao-reforma.jpg','imoveis.jpg', 'informatica.jpg', 'mercados-padarias.jpg', 'pets.jpg', 'pizzarias.png']">
+        <ion-slide ng-repeat="i in ['app-home-cabecalho-750x600.png','academias.jpg','beleza-estetica.jpg','construcao-reforma.jpg','imoveis.jpg','informatica.jpg', 'mercados-padarias.jpg','pets.jpg','pizzarias.png']">
           <div class="box blue"><img ng-src="https://s3-us-west-2.amazonaws.com/guiaapp-marica/cabecalhos/{{i}}"/></div>
         </ion-slide>
       </ion-slide-box>
@@ -17,7 +17,7 @@
     </div>
 		<ion-scroll zooming="true" direction="x" scrollbar-x="false" class="categories-filter">
 			<span ng-repeat="category in vm.categories">
-				<button class="button button-light filter-button"
+				<button class="button button-assertive filter-button"
 					ng-click="vm.filterByCategory(category)"
 					ng-class="{'active-filter-button': category === vm.selectedCategory}">
 					{{category}}
