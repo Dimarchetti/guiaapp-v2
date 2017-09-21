@@ -32,6 +32,40 @@ angular.module('bizdir', [
 
 .value('_', window._)
 
+  .run(function($ionicPlatform, $ionicPopup, $ionicHistory) {
+    $ionicPlatform.registerBackButtonAction(function (e) {
+      e.preventDefault();
+
+      function showConfirm() {
+        var confirmPopup = $ionicPopup.show({
+          title: 'Sair do GuiaApp?',
+          template: 'Tem certeza que quer sair do GuiaApp?',
+          buttons: [{
+            text: 'Cancelar',
+            type: 'button-stable button-outline',
+          }, {
+            text: 'Ok',
+            type: 'button-stable',
+            onTap: function () {
+              ionic.Platform.exitApp();
+            }
+          }]
+        });
+      }
+
+      // Is there a page to go back to?
+      if ($ionicHistory.backView()) {
+        // Go back in history
+        $ionicHistory.backView().go();
+      } else {
+        // This is the last page: Show confirmation popup
+        showConfirm();
+      }
+
+      return false;
+    }, 101);
+  })
+
 .run(function($ionicPlatform) {
 	$ionicPlatform.ready(function() {
 		// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
