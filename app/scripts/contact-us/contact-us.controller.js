@@ -38,8 +38,8 @@
 			$cordovaEmailComposer.isAvailable().then(function() {
 				var email = {
 					to: business.email,
-					subject: 'Cordova Icons',
-					body: 'How are you? Nice greetings from Leipzig'
+					subject: 'Olá tudo bem?',
+					body: 'Vi seu anúncio no aplicativo GuiaApp Maricá, você pode me atender?'
 				};
 
 				$cordovaEmailComposer.open(email);
