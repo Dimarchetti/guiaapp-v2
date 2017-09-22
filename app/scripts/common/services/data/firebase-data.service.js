@@ -147,7 +147,7 @@
 				categories = _.map(categories, function(category) {
 					return category.name;
 				});
-				return ['Todas'].concat(_.sortBy(_.unique(categories)));
+				return ['Tudo'].concat(_.sortBy(_.unique(categories)));
 			});
 		}
 

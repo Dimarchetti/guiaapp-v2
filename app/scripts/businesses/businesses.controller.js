@@ -33,7 +33,7 @@
 
 		var vm = angular.extend(this, {
 			categories: null,
-			selectedCategory: 'Todas',
+			selectedCategory: 'Tudo',
 			sortBy: 'name',
 			businesses: [],
 			navigate: navigate,
